@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Board Game</title>
+</head>
+
+<body>
+    <div>
+        <div class="cards" id="question_card">
+            <div class="name" id="first">
+                <p>Question Card</p>
+            </div>
+            <p id="card_one">---</p>
+        </div>
+        <div class="cards" id="naming_card">
+            <div class="name" id="second">
+                <p>Name Card</p>
+            </div>
+            <p id="card_two">---</p>
+        </div>
+    </div>
+    <div id="button_div">
+        <button id="btn_one" onclick="returnRandomQuestion()">New Card</button>
+        <button id="btn_two" onclick="returnRandomGroup()">New Card</button>
+        <br>
+        <button onclick="clean()">Clean</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
