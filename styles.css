@@ -1,3 +1,10 @@
+#card_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #question_card {
     border: 10px solid #ab65d8;
     background-color: #d0b2e3;
@@ -14,15 +21,16 @@
 }
 
 .cards {
-    display: inline-table;
+    /* display: inline-table; */
     margin: 10px;
-    height: 620px;
+    height: 180%;
+    min-height: 300px;
     width: 31%;
     position: relative;
-    left: 15%;
+    /* left: 15%; */
     border-radius: 15px;
     padding: 10px;
-}
+} /* Too long, font in names too big, left too far*/
 
 .cards p {
     top: 27%;
