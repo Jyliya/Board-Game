@@ -1,11 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 #card_div {
     display: flex;
-    justify-content: center; /* center horizontally */
-    align-items: center;     /* center vertically */
-    flex-wrap: wrap;         /* allow wrapping if needed */
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    gap: 30px;                 /* spacing between cards */
     width: 100%;
-    height: 100vh;           /* take full screen height */
-    gap: 20px;               /* space between cards */
+    height: 100vh;             /* full screen height */
+}
+
+.cards {
+    flex: 0 1 300px;           /* allow shrink, set base width */
+    min-height: 350px;
+    max-width: 400px;          /* prevent them from being too wide */
+    border-radius: 15px;
+    padding: 10px;
 }
 
 
@@ -24,12 +36,6 @@
     text-align: center;
 }
 
-.cards {
-    min-height: 350px;
-    width: 30%;              /* smaller width so both fit */
-    border-radius: 15px;
-    padding: 10px;
-}
 
 .cards p {
     top: 27%;
@@ -86,6 +92,7 @@ button {
 #btn_two:hover {
     background-color:#358914;
 }
+
 
 
 
