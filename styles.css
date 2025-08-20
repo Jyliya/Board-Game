@@ -20,6 +20,7 @@ html, body {
     height: 380px;             /* fixed height */
     border-radius: 15px;
     padding: 10px;
+    left: 5%;
     box-sizing: border-box;    /* include padding in size */
 }
 
@@ -95,6 +96,7 @@ button {
 #btn_two:hover {
     background-color:#358914;
 }
+
 
 
 
