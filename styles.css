@@ -7,17 +7,17 @@ html, body {
     display: flex;
     justify-content: center;   /* center horizontally */
     align-items: center;       /* center vertically */
-    gap: 30px;                 /* spacing between cards */
     width: 100%;
-    height: 100vh;             /* full screen height */
+    height: 100vh;             /* full viewport height */
+    gap: 20px;                 /* space between cards */
 }
 
 .cards {
-    flex: 0 1 300px;           /* allow shrink, set base width */
-    min-height: 350px;
-    max-width: 400px;          /* prevent them from being too wide */
+    width: 300px;              /* fixed width so two can fit */
+    height: 400px;             /* fixed height */
     border-radius: 15px;
     padding: 10px;
+    box-sizing: border-box;    /* include padding in size */
 }
 
 
@@ -92,6 +92,7 @@ button {
 #btn_two:hover {
     background-color:#358914;
 }
+
 
 
 
