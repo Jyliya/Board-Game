@@ -9,6 +9,7 @@ let questions = ['What do you usually do at weekends?', "How much time do you sp
     "What do you usually do in the morning?", "How often do you play games?", "What is your best recipe?",
     "How big is your family? Name all members.", "What is your favorite dish? Can you make it?",
     "How many days are in December?", "What is the number of your house?", "Describe your room.",
+    
 ];
 
 let groups = ["Name 5 pets.", "Name 6 ball games.", "Name 6 green things.", "Name 4 dishes.",
@@ -99,3 +100,4 @@ function clean() {
     nums_2 = [];
 
 }
+
