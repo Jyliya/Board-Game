@@ -28,8 +28,7 @@ body {
 
 .cards {
     /* display: inline-table; */
-    /* margin: 10px; */
-    height: 165%;
+    margin: 10px;
     min-height: 350px;
     width: 31%;
     position: relative;
@@ -93,6 +92,7 @@ button {
 #btn_two:hover {
     background-color:#358914;
 }
+
 
 
 
