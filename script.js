@@ -8,7 +8,7 @@ let questions = ['What do you usually do at weekends?', "How much time do you sp
     "What do you have in your wardrobe?", "Explain how football works.", "What is a watermelon?",
     "What do you usually do in the morning?", "How often do you play games?", "What is your best recipe?",
     "How big is your family? Name all members.", "What is your favorite dish? Can you make it?",
-    "How many days are in December?", "What is the number of your house?", "Describe your room.", ""
+    "How many days are in December?", "What is the number of your house?", "Describe your room.",
 ];
 
 let groups = ["Name 5 pets.", "Name 6 ball games.", "Name 6 green things.", "Name 4 dishes.",
@@ -19,7 +19,7 @@ let groups = ["Name 5 pets.", "Name 6 ball games.", "Name 6 green things.", "Nam
     "Name 7 things that you can see in a fridge.", "Name 3 things that you can play with.", 
     "Name 7 things you can find in bathroom.", "Name 4 things you usually do in winter.", 
     "Name 6 professions.", "Name 4 movies.", "Name 5 things that need electricity.", "Name 5 catital cities.",
-    ""
+    
 ];
 
 function getRandom(max) {
@@ -97,4 +97,5 @@ function returnRandomGroup() {
 function clean() {
     nums_1 = [];
     nums_2 = [];
+
 }
