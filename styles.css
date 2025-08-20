@@ -4,6 +4,7 @@
     align-items: center;
 }
 
+
 #question_card {
     border: 10px solid #ab65d8;
     background-color: #d0b2e3;
@@ -23,7 +24,7 @@
     /* display: inline-table; */
     margin: 10px;
     height: 180%;
-    min-height: 300px;
+    min-height: 350px;
     width: 31%;
     position: relative;
     /* left: 15%; */
@@ -36,7 +37,7 @@
     /* left: 6%; */
     margin: 10px;
     position: relative;
-    font-size: 100%;
+    font-size: 250%;
 }
 
 .name {
@@ -50,7 +51,7 @@
 
 .name p {
     top: 27%;
-    font-size: 150%;
+    font-size: 300%;
 }
 
 #first {
@@ -86,4 +87,3 @@ button {
 #btn_two:hover {
     background-color:#358914;
 }
-
