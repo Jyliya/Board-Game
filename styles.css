@@ -68,8 +68,8 @@ html, body {
 }
 
 button {
-    margin-right: 14%;
-    margin-left: 14%;
+    margin-right: 4%;
+    margin-left: 4%;
     font-size: 120%;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
@@ -92,6 +92,7 @@ button {
 #btn_two:hover {
     background-color:#358914;
 }
+
 
 
 
