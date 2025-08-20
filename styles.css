@@ -15,6 +15,7 @@ html, body {
 }
 
 .cards {
+    position: relative;
     margin: 5px;
     width: 290px;              /* fixed width so two can fit */
     height: 380px;             /* fixed height */
@@ -96,6 +97,7 @@ button {
 #btn_two:hover {
     background-color:#358914;
 }
+
 
 
 
